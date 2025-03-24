@@ -38,12 +38,14 @@ function guess(){
        
 
         c.style.display="block"
-         robo.style.display="none"
-         b.style.display="none"
+        robo.style.display="none"
+        b.style.display="none"
 
-         if(a1==d){
-            i.classList.add("class","para")
-        }
+         
+        i.id="para"
+
+        
+        
         
          
          
@@ -61,10 +63,12 @@ function guess(){
             
             
             
+            
             robo.style.display="none"
             b.style.display="block"
             c.style.display="none"
             
+            i.classList.add("class","paran")
             
         if(score==0){
             alert("TRY AGAIN 🤖")

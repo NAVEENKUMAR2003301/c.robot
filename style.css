@@ -27,12 +27,12 @@ body {
     border-radius: 16px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    max-width: 400px;
+    max-width: 600px;
     text-align: center;
     width: 90%;
 }
 
-.para {
+#para {
     background: #ffffff;
     border-radius: 16px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -46,16 +46,16 @@ body {
 @keyframes border{
 
     0%{
-       border: 5px solid red;
+       border: 5px solid rgb(255, 0, 0);
     }
     20%{
-       border: 5px solid rgb(0, 42, 255);
+       border: 5px solid rgb(0, 42, 253);
     }
     40%{
-       border: 5px solid rgb(255, 0, 221);
+       border: 5px solid rgb(156, 0, 135);
     }
     50%{
-       border: 5px solid rgb(0, 255, 251);
+       border: 5px solid rgb(2, 255, 40);
     }
     80%{
        border: 5px solid rgb(0, 0, 0);
@@ -65,16 +65,49 @@ body {
     }
 
 }
+#paran {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    width: 90%;
+    animation: bord infinite normal 2s;
+}
+
+@keyframes bord{
+
+    0%{
+       border: 5px solid rgb(241, 167, 167);
+    }
+    20%{
+       border: 5px solid rgb(160, 172, 231);
+    }
+    40%{
+       border: 5px solid rgb(184, 127, 176);
+    }
+    50%{
+       border: 5px solid rgb(90, 114, 114);
+    }
+    80%{
+       border: 5px solid rgb(0, 0, 0);
+    }
+    100%{
+       border: 5px solid rgb(45, 45, 45);
+    }
+
+}
 
 .robo1{
  display: none;
  position: relative;
- left: 75px;
+ left: 170px;
 }
 .robo2{
  display: none;
  position: relative;
- left: 180px;
+ left: 170px;
 }
 
 h1 {
