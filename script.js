@@ -9,10 +9,11 @@ const g = document.getElementById("myguess")
 const h = document.getElementById("title")
 const i = document.querySelector("div")
 const j = prompt("enter your name")
+const k = document.getElementById("win")
 
 
 
-
+let winn = 0
 let score = 10
 function guess(){
     const a1 =Number(a.value)
@@ -36,6 +37,10 @@ function guess(){
         g.textContent=" my guess :" + d
         h.textContent="🤖 : I Think You have Superb Brain " + j
        
+        winn = winn + 1
+        k.textContent="score : " + winn
+        k.style.color="green"
+
 
         c.style.display="block"
         robo.style.display="none"
@@ -68,7 +73,7 @@ function guess(){
             b.style.display="block"
             c.style.display="none"
             
-            i.classList.add("class","paran")
+            i.id="paran"
             
         if(score==0){
             alert("TRY AGAIN 🤖")

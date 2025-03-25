@@ -20,6 +20,11 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-image: url(./assets/background.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .parent {
@@ -40,7 +45,7 @@ body {
     max-width: 600px;
     text-align: center;
     width: 90%;
-    animation: border infinite normal 2s;
+    animation: border 3s ease-in normal 2;
 }
 
 @keyframes border{
@@ -73,7 +78,7 @@ body {
     max-width: 600px;
     text-align: center;
     width: 90%;
-    animation: bord infinite normal 2s;
+    animation: bord 3s ease-in normal 1;
 }
 
 @keyframes bord{
@@ -140,6 +145,10 @@ input {
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 1rem;
+}
+
+#win{
+    font-size: xx-large;
 }
 
 button {
